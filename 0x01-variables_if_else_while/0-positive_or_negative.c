@@ -3,11 +3,14 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there*/
 /**
- * main - "Positive anything is better than negative nothing" 
- * return: always 0.
+ * main - prints "with proper grammar, but the outcome is
+ * a piece of art," followed newline
+ * Return: Always 0.
+ *
  */
+
 int main(void)
 {
 	int n;
