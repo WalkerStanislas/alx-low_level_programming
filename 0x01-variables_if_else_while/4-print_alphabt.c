@@ -14,11 +14,18 @@ int main(void)
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-		if (alpha == 'e' or alpha == 'q')
+		if (alpha == 'e')
 		{
 			continue;
 		}
-		putchar(alpha);
+		else if (alpha == 'q')
+		{
+			continue;
+		}
+		else
+		{
+			putchar(alpha);
+		}
 	}
 	putchar('\n');
 	return (0);
