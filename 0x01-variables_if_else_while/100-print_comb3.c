@@ -6,26 +6,24 @@
 
 int main(void)
 {
-	int alpha;
-	int last_d;
-	int first_d;
+	int alpha1;
+	int alpha2;
 
-	for (alpha = '01'; alpha <= '89'; alpha++)
+	for (alpha1 = '0'; alpha1 < '9'; alpha1++)
 	{
-		last_d = alpha % 10;
-		first_d = alpha / 10;
-		if (last_d != first_d)
+		for (alpha2 = alpha1 + 1; alpha2 <= '9' ;alpha2++)
 		{
-			if (alpha == '10')
+			if (alpha1 != alpha2)
+			{
+				putchar(alpha1);
+				putchar(alpha2);
+			}
+			if (alpha1 == '8' && alpha2 == '9')
 			{
 				continue;
 			}
-			putchar(alpha);
-			if (alpha != '89')
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
