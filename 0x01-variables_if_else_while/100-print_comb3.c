@@ -11,7 +11,7 @@ int main(void)
 
 	for (alpha1 = '0'; alpha1 < '9'; alpha1++)
 	{
-		for (alpha2 = alpha1 + 1; alpha2 <= '9' ;alpha2++)
+		for (alpha2 = alpha1 + 1; alpha2 <= '9'; alpha2++)
 		{
 			if (alpha1 != alpha2)
 			{
