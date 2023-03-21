@@ -6,8 +6,13 @@
 
 int main(void)
 {
-	 _putchar(print_alphabet);
-	 _putchar('\n');
+	char a;
+
+	for (a = 'a'; a <= 'z'; a++)
+	{
+		_putchar(a);
+	}
+       	_putchar('\n');
 	 return (0);
 
 }
