@@ -1,10 +1,10 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main - Entry
  * Return: Always (Success)
  */
 
-int main(char a)
+int _putchar(char a)
 {
 
 	return (write(1, &a, 1));
