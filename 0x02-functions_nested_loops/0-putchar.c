@@ -4,13 +4,9 @@
  * Return: Always (Success)
  */
 
-int main(void)
+int main(char a)
 {
-	char a;
 
-	a= '_putchar';
-	putchar(a);
-	putchar('\n');
-	return (0);
+	return (write(1, &a, 1));
 
 }
