@@ -7,6 +7,8 @@
 char _putchar(char a)
 {
 	a = '_putchar';
-	return (a);
+	putchar(a);
+	putchar('\n');
+	return (0);
 
 }
