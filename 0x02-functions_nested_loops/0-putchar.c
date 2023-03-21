@@ -6,7 +6,7 @@
 
 int _putchar(char a)
 {
-	a = _putchar;
+	a = '_putchar';
 	return (a);
 
 }
