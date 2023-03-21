@@ -4,7 +4,7 @@
  * Return: Always (Success)
  */
 
-int _putchar(char a)
+char _putchar(char a)
 {
 	a = '_putchar';
 	return (a);
