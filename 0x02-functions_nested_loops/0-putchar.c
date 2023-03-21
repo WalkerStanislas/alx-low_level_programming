@@ -1,13 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  * Return: Always (Success)
  */
 
-char _putchar(char a)
+int main(void)
 {
-	a = '_putchar';
-	putchar(a);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('a');
+	_putchar('r');
 	putchar('\n');
 	return (0);
 
